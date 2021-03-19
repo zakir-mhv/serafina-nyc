@@ -1,0 +1,369 @@
+.social-media-icons {
+  margin-left: 4rem;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: white;
+}
+
+.social-media-icons a {
+  padding-left: 0.2rem;
+  color: white;
+}
+
+.social-media-icons a:hover {
+  color: gray;
+}
+
+.social-media-icons span {
+  padding-left: 0.5rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Graduate, Courier, monospace;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  background-color: #143250;
+  height: 10vh;
+  width: 100%;
+  z-index: 1;
+}
+
+header #logo {
+  margin-left: 2rem;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+header #logo span {
+  margin-left: 0.5rem;
+}
+
+header #logo:hover {
+  color: gray;
+}
+
+header nav {
+  margin-right: 2rem;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 2rem;
+  list-style: none;
+}
+
+header nav ul li .active {
+  background-color: gray;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  background-color: gray;
+  border-radius: 0.2rem;
+}
+
+header #nav-menu-icon {
+  margin-right: 1rem;
+  font-size: 3rem;
+  color: white;
+  display: none;
+  z-index: 1;
+}
+
+main #home,
+main #hours,
+main #contact {
+  padding-top: 10vh;
+}
+
+main #home {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  background-image: url("assets/jpg/home.jpg");
+  padding-top: 30vh;
+  text-align: center;
+  color: white;
+  height: 100vh;
+}
+
+main #home hr {
+  margin: 1rem auto;
+  background-color: white;
+  border: none;
+  height: 0.3rem;
+  width: 25%;
+}
+
+main #home button {
+  padding: 10px 20px;
+  background-color: #143250;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+main #home button:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+main #hours {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  background-image: url("assets/jpg/hours.jpg");
+  height: 100vh;
+}
+
+main #hours #up {
+  margin-top: 5rem;
+  margin-left: 2rem;
+  color: white;
+  letter-spacing: 0.2rem;
+}
+
+main #hours #up h1 {
+  font-size: 2rem;
+}
+
+main #hours #up span {
+  font-size: 1rem;
+}
+
+main #hours #down {
+  margin-left: 2rem;
+  margin-top: 8rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  color: white;
+  border: 0.2rem solid white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+main #menu {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main #menu #img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  background-image: url("assets/jpg/menu.jpg");
+  height: 100vh;
+  width: 30%;
+}
+
+main #menu #grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 2rem;
+  padding: 10vh;
+  width: 70%;
+  font-size: 0.9rem;
+  background-color: BurlyWood;
+  color: #143250;
+}
+
+main #contact {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  background-image: url("assets/jpg/contact.jpg");
+  height: 100vh;
+}
+
+main #contact div {
+  height: 75vh;
+  width: 90%;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 4rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #143250;
+  border-radius: 1rem;
+}
+
+main #contact div h1 {
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+
+main #contact div h4 {
+  font-size: 1.5rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.2rem 2rem;
+  background-color: #143250;
+  color: white;
+  height: 10vh;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: gray;
+}
+
+@media screen and (max-width: 768px) {
+  header #nav-menu-icon {
+    display: block;
+  }
+  header #logo {
+    margin-left: 1rem;
+    font-size: 2rem;
+  }
+  header .social-media-icons {
+    display: none;
+  }
+  header nav {
+    position: fixed;
+    top: 0;
+    left: -200%;
+    background-color: black;
+    opacity: 0.95;
+    height: 100vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  header nav ul li {
+    margin-left: 0;
+    padding: 1rem 0;
+  }
+  header nav ul li a {
+    font-size: 2rem;
+  }
+  header .nav-toggle {
+    left: 0;
+  }
+  main #home {
+    padding: 10rem 2rem;
+  }
+  main #hours {
+    background-position: center;
+  }
+  main #hours #up {
+    margin-top: 5rem;
+    letter-spacing: 0;
+  }
+  main #hours #up span {
+    font-size: 0.7rem;
+  }
+  main #hours #down {
+    width: 50%;
+    padding: 1rem;
+  }
+  main #menu {
+    height: 170vh;
+  }
+  main #menu #img {
+    display: none;
+  }
+  main #menu #grid-container {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    width: 100%;
+    padding: 10vh 5vh;
+  }
+  main #contact div {
+    padding: 5rem 1rem;
+    width: 70%;
+  }
+  main #contact div h1 {
+    letter-spacing: 0;
+  }
+  main #contact div h4 {
+    font-size: 1rem;
+  }
+  footer {
+    padding: 1rem 1rem;
+  }
+  footer a span {
+    display: block;
+  }
+  footer .social-media-icons {
+    margin-left: 0;
+  }
+  footer .social-media-icons span {
+    display: block;
+    padding: 0.2rem 0 0 0;
+  }
+}
